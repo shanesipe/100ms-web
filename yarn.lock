@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@100mslive/hls-stats@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@100mslive/hls-stats/-/hls-stats-0.0.5.tgz#042658f33e9f49beda212d9b2e3158282dd11ae9"
-  integrity sha512-++ec4dGQ7t7js3BG3mf9HTwSA1ljQS//yUKQI/aTr+KQ6r7bbGcLEUl0pVby8MRL995uNlkTMMbfa/gd5wLbug==
+"@100mslive/hls-stats@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@100mslive/hls-stats/-/hls-stats-0.0.6.tgz#a5c59fda172a22c190667775cc3e61b72e004303"
+  integrity sha512-ZRBXdhW4jpCF3Hjg08Q6nT4NSoBwWqndu0IVyFTT+H1A7cL1PPMC/a7Z1dK386SulqUOF8OzO6H0q64Uda0kUw==
 
 "@100mslive/hms-noise-suppression@0.7.3":
   version "0.7.3"
