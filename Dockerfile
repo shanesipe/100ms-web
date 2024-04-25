@@ -33,7 +33,7 @@ ENV REACT_APP_HEADLESS_JOIN='false'
 RUN yarn build
 
 # Bundle static assets with nginx
-FROM nginx:1.23.1-alpine AS production
+FROM nginx:1.26-alpine AS production
 # Copy built assets from builder
 COPY --from=builder /100ms-web/build /usr/share/nginx/html
 
