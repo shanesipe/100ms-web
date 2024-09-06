@@ -12,6 +12,20 @@
   resolved "https://registry.yarnpkg.com/@100mslive/hms-noise-suppression/-/hms-noise-suppression-0.7.3.tgz#a0e377a3481e2b6c27e6faab6d977c8aed18eedc"
   integrity sha512-IUhJGCDP6Cns+SkcVTiLKpL5UvpeYelx8bgMqb0S55rLBG4WlCoN/K+NiKsAZWGS9UmzhQZCCn41qKsA/S8pNw==
 
+"@100mslive/hms-video-store@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@100mslive/hms-video-store/-/hms-video-store-0.11.0.tgz#f42782808b9184fad27258ba41e0656dd7aa34f3"
+  integrity sha512-zDfSYUxIeTzOOBvv2+0ld/GIxXMZq/snGDPuRImVOyMKXg+7txtatfmjPVkPx+8jcH/LlSJUFQgeWWvxyp2a9A==
+  dependencies:
+    eventemitter2 "^6.4.9"
+    immer "^9.0.6"
+    reselect "4.0.0"
+    sdp-transform "^2.14.1"
+    ua-parser-js "^1.0.1"
+    uuid "^8.3.2"
+    webrtc-adapter "^8.0.0"
+    zustand "3.5.7"
+
 "@100mslive/hms-video-store@0.8.3":
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/@100mslive/hms-video-store/-/hms-video-store-0.8.3.tgz#d987a8b8328e996cf1f357662dc4bd4710392ea1"
@@ -61,6 +75,15 @@
   dependencies:
     "@100mslive/hms-video-store" "0.8.3"
     react-intersection-observer "^8.33.1"
+    react-resize-detector "^7.0.0"
+    zustand "^3.6.2"
+
+"@100mslive/react-sdk@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@100mslive/react-sdk/-/react-sdk-0.9.0.tgz#8af6e1305eae6d34756855d226cfbb7b41288a3e"
+  integrity sha512-/1rhRzS9COtsUZWZM6ufzAk9sKCxKsAwvtqYa3di9Iq9z6lRwm5eORKfN2msV2MRIFOC+OB7dr9cwe8EpIqFBA==
+  dependencies:
+    "@100mslive/hms-video-store" "0.11.0"
     react-resize-detector "^7.0.0"
     zustand "^3.6.2"
 
@@ -3978,7 +4001,7 @@ etag@~1.8.1:
   resolved "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
-eventemitter2@^6.4.7:
+eventemitter2@^6.4.7, eventemitter2@^6.4.9:
   version "6.4.9"
   resolved "https://registry.npmjs.org/eventemitter2/-/eventemitter2-6.4.9.tgz"
   integrity sha512-JEPTiaOt9f04oa6NOkc4aH+nVp5I3wEjpHbIPqfgCdD5v5bUzy7xQqwcVO2aDQgOWhI28da57HksMrzK9HlRxg==
