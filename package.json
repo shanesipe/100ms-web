@@ -13,7 +13,7 @@
     "@100mslive/hms-noise-suppression": "0.7.3",
     "@100mslive/hms-virtual-background": "1.9.3",
     "@100mslive/react-icons": "0.6.3",
-    "@100mslive/react-sdk": "0.6.3",
+    "@100mslive/react-sdk": "0.9.0",
     "@100mslive/react-ui": "0.6.3",
     "@emoji-mart/data": "^1.0.6",
     "@emoji-mart/react": "^1.0.1",
